@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    max-width: 90%;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+    box-sizing: border-box;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.container button {
+    padding: 10px 25px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container button:hover {
+    background: #0056b3;
+}
+
+#error {
+    color: red;
+}
+
+.dashboard {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+.logout {
+    background: red;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background: darkred;
+}

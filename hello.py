@@ -1,0 +1,1 @@
+print("Hello Attendance Tracker!")
