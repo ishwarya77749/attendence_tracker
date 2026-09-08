@@ -97,6 +97,9 @@ app.get("/students/:registerNumber", async (req, res) => {
     });
   }
 });
+app.get("/", (req, res) => {
+    res.send("Attendance Tracker Backend is Running!");
+});
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
